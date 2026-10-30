@@ -1,0 +1,66 @@
+[
+  {
+    "id": "meet-marisol",
+    "screen_id": "story",
+    "route": "/",
+    "target": "story-panel",
+    "title": "Meet Marisol",
+    "body": "Marisol verifies home care visits for a 32-caregiver agency. Here is her Monday morning before and after this tool."
+  },
+  {
+    "id": "one-visit-list",
+    "screen_id": "visits",
+    "route": "/visits",
+    "target": "tracker-table",
+    "title": "Every visit in one list",
+    "body": "Last week's visits, already checked against the state EVV file, with the ones that need a person at the top."
+  },
+  {
+    "id": "visit-history",
+    "screen_id": "visit",
+    "route": "/visit",
+    "target": "case-timeline",
+    "title": "The whole story of a visit",
+    "body": "Who was scheduled, when the caregiver clocked in, what the state aggregator returned, and every call and note since."
+  },
+  {
+    "id": "exception-flagged",
+    "screen_id": "exceptions",
+    "route": "/exceptions",
+    "target": "denial-row-41882",
+    "title": "A visit missing its clock-out",
+    "body": "Dwayne clocked in at 8:02am and never clocked out. The visit is flagged with the reason in plain words, not a code."
+  },
+  {
+    "id": "root-cause",
+    "screen_id": "exceptions",
+    "route": "/exceptions",
+    "target": "exception-detail",
+    "title": "The address that moved",
+    "body": "The family moved two apartments over and nobody updated the client profile, so a perfectly good visit looks wrong."
+  },
+  {
+    "id": "human-approval",
+    "screen_id": "billing-review",
+    "route": "/billing-review",
+    "target": "approval-queue-item",
+    "title": "Marisol signs off",
+    "body": "Corrected hours, the family's confirmation, and one button. Nothing reaches the payer or payroll until she clicks it."
+  },
+  {
+    "id": "metrics-overview",
+    "screen_id": "visits",
+    "route": "/visits",
+    "target": "metric-panel",
+    "title": "The numbers that matter",
+    "body": "Visits waiting, caregiver hours on hold, this week's exception rate, and how long exceptions take to clear."
+  },
+  {
+    "id": "how-it-works",
+    "screen_id": "architecture",
+    "route": "/architecture",
+    "target": "architecture-diagram",
+    "title": "How this would be built",
+    "body": "The verification queue sits between the scheduling system, the caregiver app, and the state EVV aggregator, with a human approval before anything reaches claims or payroll."
+  }
+]
